@@ -10,7 +10,7 @@ from aiogram.types import Message, CallbackQuery
 from aiogram.filters import CommandStart, CommandObject
 
 import database as db
-from config import SUPER_ADMIN_ID
+from bot_config import SUPER_ADMIN_ID
 from keyboards import subscribe_kb
 
 router = Router()
