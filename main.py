@@ -6,7 +6,7 @@ from aiogram.enums import ParseMode
 from aiogram.client.default import DefaultBotProperties
 from aiogram.fsm.storage.memory import MemoryStorage
 
-from config import BOT_TOKEN
+from bot_config import BOT_TOKEN
 import database as db
 from handlers import super_admin, sub_admin, user
 
