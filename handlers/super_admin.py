@@ -19,7 +19,7 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.exceptions import TelegramForbiddenError, TelegramBadRequest
 
 import database as db
-from config import SUPER_ADMIN_ID
+from bot_config import SUPER_ADMIN_ID
 from keyboards import (
     super_admin_main_kb,
     admins_manage_kb,
