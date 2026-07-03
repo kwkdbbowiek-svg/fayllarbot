@@ -1,0 +1,19 @@
+# Muhim: bu fayllar GitHub ga yuklanmasin!
+.env
+*.db
+*.sqlite
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
