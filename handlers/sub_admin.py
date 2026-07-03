@@ -18,7 +18,7 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 
 import database as db
-from config import SUPER_ADMIN_ID, DB_PATH
+from bot_config import SUPER_ADMIN_ID, DB_PATH
 from keyboards import (
     sub_admin_main_kb,
     sub_admin_channels_kb,
